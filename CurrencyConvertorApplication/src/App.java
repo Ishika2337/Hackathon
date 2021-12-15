@@ -73,6 +73,7 @@ public class App {
                     break;
                 }
                 case 3: {
+                    logger.info("User selected EUR to INR");
                     System.out.println("******EUR to INR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -81,6 +82,7 @@ public class App {
                     break;
                 }
                 case 4: {
+                    logger.info("User selected GBP to INR");
                     System.out.println("******GBP to INR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -89,6 +91,7 @@ public class App {
                     break;
                 }
                 case 5: {
+                    logger.info("User selected AUD to INR");
                     System.out.println("******AUD to INR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -97,6 +100,7 @@ public class App {
                     break;
                 }
                 case 6: {
+                    logger.info("User selected INR to EUR");
                     System.out.println("******INR to EUR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -105,6 +109,7 @@ public class App {
                     break;
                 }
                 case 7: {
+                    logger.info("User selected INR to GBP");
                     System.out.println("******INR to GBP******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -113,6 +118,7 @@ public class App {
                     break;
                 }
                 case 8: {
+                    logger.info("User selected INR to AUD");
                     System.out.println("******INR to AUD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -121,6 +127,7 @@ public class App {
                     break;
                 }
                 case 9: {
+                    logger.info("User selected EUR to USD");
                     System.out.println("******EUR to USD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -129,6 +136,7 @@ public class App {
                     break;
                 }
                 case 10: {
+                    logger.info("User selected EUR to GBP");
                     System.out.println("******EUR to GBP******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -137,6 +145,7 @@ public class App {
                     break;
                 }
                 case 11: {
+                    logger.info("User selected EUR to AUD");
                     System.out.println("******EUR to AUD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -145,6 +154,7 @@ public class App {
                     break;
                 }
                 case 12: {
+                    logger.info("User selected USD to EUR");
                     System.out.println("******USD to EUR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
@@ -153,6 +163,8 @@ public class App {
                     break;
                 }
                 case 13: {
+                    logger.info("User selected USD to GBP");
+                    System.out.println("******USD to GBP******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.usdToGbp(money));
@@ -160,6 +172,8 @@ public class App {
                     break;
                 }
                 case 14: {
+                    logger.info("User selected USD to AUD");
+                    System.out.println("******USD to AUD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.usdToAud(money));
@@ -167,6 +181,8 @@ public class App {
                     break;
                 }
                 case 15: {
+                    logger.info("User selected GBP to USD");
+                    System.out.println("******GBP to USD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.gbpToUsd(money));
@@ -174,6 +190,8 @@ public class App {
                     break;
                 }
                 case 16: {
+                    logger.info("User selected GBP to EUR");
+                    System.out.println("******GBP to EUR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.gbpToEur(money));
@@ -181,6 +199,8 @@ public class App {
                     break;
                 }
                 case 17: {
+                    logger.info("User selected GBP to AUD");
+                    System.out.println("******GBP to AUD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.gbpToAud(money));
@@ -188,6 +208,8 @@ public class App {
                     break;
                 }
                 case 18: {
+                    logger.info("User selected AUD to GBP");
+                    System.out.println("******AUD to GBP******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.audToGbp(money));
@@ -195,6 +217,8 @@ public class App {
                     break;
                 }
                 case 19: {
+                    logger.info("User selected AUD to USD");
+                    System.out.println("******AUD to USD******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.audToUsd(money));
@@ -202,6 +226,8 @@ public class App {
                     break;
                 }
                 case 20: {
+                    logger.info("User selected AUD to EUR");
+                    System.out.println("******AUD to EUR******");
                     money = amount.getAmount();
                     logger.info("User Entered amount: "+ money);
                     convertedAmount= round(currencyConvertor.audToEur(money));
